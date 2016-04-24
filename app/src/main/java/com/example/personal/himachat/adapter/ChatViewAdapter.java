@@ -47,7 +47,7 @@ public class ChatViewAdapter extends BaseAdapter {
         LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         Chat chat = ((Chat)getItem(position));
-        boolean isMyChat = chat.getUsername() == username;
+        boolean isMyChat = chat.getUsername().equals(username);
         View messageView;
         if (isMyChat)
             messageView = inflater.inflate(R.layout.list_row_me, parent, false);

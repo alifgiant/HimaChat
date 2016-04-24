@@ -71,10 +71,11 @@
       <file leaf-file-name="ChatViewAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/personal/himachat/adapter/ChatViewAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5939086">
-              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.61928934">
+              <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="docComment;class#ChatViewAdapter#0" expanded="false" />
                 <element signature="e#781#782#0" expanded="true" />
                 <element signature="e#819#820#0" expanded="true" />
               </folding>
@@ -2361,10 +2362,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/personal/himachat/adapter/ChatViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5939086">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.61928934">
+          <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ChatViewAdapter#0" expanded="false" />
             <element signature="e#781#782#0" expanded="true" />
             <element signature="e#819#820#0" expanded="true" />
           </folding>
