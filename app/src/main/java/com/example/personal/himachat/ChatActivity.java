@@ -32,7 +32,7 @@ public class ChatActivity extends AppCompatActivity implements View.OnClickListe
     Button send;
 
     ChatViewAdapter chatViewAdapter;
-    ArrayList<Chat> chatArrayList;
+    ArrayList<Chat> chatArrayList = new ArrayList<>();
 
     MqttHandler handler;
 

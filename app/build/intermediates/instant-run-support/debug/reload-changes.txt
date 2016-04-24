@@ -1,16 +1,2 @@
 CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/ChatActivity$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/design/R$id$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/ChatActivity$1$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/R$mipmap$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$id$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/AppConfig$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/R$styleable$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/R$integer$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/R$layout$override.class
 CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/R$id$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/LoginActivity$1$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/LoginActivity$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/R$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/R$string$override.class
-CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/R$style$override.class
