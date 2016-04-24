@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hima Chat</string>
+    <string-array name="gender">
+        <item>Boy</item>
+        <item>Girl</item>
+    </string-array>
+
+    <!--address server-->
+    <string name="domain_url">10.5.13.114</string>
+</resources>

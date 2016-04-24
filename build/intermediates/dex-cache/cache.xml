@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0135160bc52cafcb931cc49fea1bd4d0dc566b7c">
+        <dex dex="/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_3cfa074a294f92d6fbbccbafa631b40e0b4d7ff2.jar" />
+    </item>
+
+</items>

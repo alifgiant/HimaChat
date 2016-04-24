@@ -1,0 +1,2 @@
+CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/personal/himachat/network/MqttHandler$override.class
+CHANGED,/home/maaakbar/MyProject/HimaChat2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
