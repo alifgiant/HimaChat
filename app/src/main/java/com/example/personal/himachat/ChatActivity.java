@@ -10,22 +10,29 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.example.personal.himachat.adapter.ChatViewAdapter;
+import com.example.personal.himachat.model.Chat;
 import com.example.personal.himachat.network.MqttHandler;
 
 import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
 import org.eclipse.paho.client.mqttv3.MqttCallback;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
+import org.json.JSONException;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 
 public class ChatActivity extends AppCompatActivity implements View.OnClickListener {
     String username = "maakbar";
     boolean isMale = true;
 
-    ListView chat;
+    ListView listChat;
     EditText messaging;
     Button send;
+
+    ChatViewAdapter chatViewAdapter;
+    ArrayList<Chat> chatArrayList;
 
     MqttHandler handler;
 
@@ -37,7 +44,13 @@ public class ChatActivity extends AppCompatActivity implements View.OnClickListe
         username = AppConfig.getLoggedUserName(ChatActivity.this);
         isMale = AppConfig.getLoggedGender(ChatActivity.this);
 
-        chat = (ListView) findViewById(R.id.listDaftarChat);
+        listChat = (ListView) findViewById(R.id.listDaftarChat);
+
+        chatViewAdapter = new ChatViewAdapter(ChatActivity.this,
+                username, chatArrayList);
+
+        listChat.setAdapter(chatViewAdapter);
+
         messaging = (EditText) findViewById(R.id.formMessage);
         send = (Button) findViewById(R.id.butSend);
 
@@ -54,7 +67,14 @@ public class ChatActivity extends AppCompatActivity implements View.OnClickListe
 
         @Override
         public void messageArrived(String topic, MqttMessage message) throws Exception {
-
+            try {
+                Chat chat = Chat.ParseJSON(message.toString());
+                chatArrayList.add(chat);
+                chatViewAdapter.notifyDataSetChanged();
+                scrollMyListViewToBottom();
+            }catch (JSONException e){
+                e.printStackTrace();
+            }
         }
 
         @Override
@@ -62,6 +82,16 @@ public class ChatActivity extends AppCompatActivity implements View.OnClickListe
 
         }
     };
+
+    private void scrollMyListViewToBottom() {
+        listChat.post(new Runnable() {
+            @Override
+            public void run() {
+                // Select the last row so it will scroll into view...
+                listChat.setSelection(listChat.getCount() - 1);
+            }
+        });
+    }
 
     @Override
     protected void onStart() {

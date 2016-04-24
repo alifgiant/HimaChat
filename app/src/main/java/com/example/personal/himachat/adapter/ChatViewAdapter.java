@@ -21,6 +21,12 @@ public class ChatViewAdapter extends BaseAdapter {
     String username;
     Context context;
 
+    public ChatViewAdapter(Context context, String username, List<Chat> chatList) {
+        this.chatList = chatList;
+        this.username = username;
+        this.context = context;
+    }
+
     @Override
     public int getCount() {
         return chatList.size();

@@ -58,17 +58,15 @@ public class Chat {
         return this;
     }
 
-    public static Chat ParseJSON(String response){
+    public static Chat ParseJSON(String response) throws JSONException{
         Chat chat = new Chat();
-        try {
-            JSONObject object = new JSONObject(response);
-            chat.setUsername(object.getString("username"))
-                .setMale(object.getBoolean("is_male"))
-                .setMessage(object.getString("message"))
-                .setDate(object.getString("date"));
-        }catch (JSONException e){
-            e.printStackTrace();
-        }
+
+        JSONObject object = new JSONObject(response);
+        chat.setUsername(object.getString("username"))
+            .setMale(object.getBoolean("is_male"))
+            .setMessage(object.getString("message"))
+            .setDate(object.getString("date"));
+
         return chat;
     }
 

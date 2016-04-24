@@ -4,26 +4,26 @@
     api-level="16"
     density="420dpi"
     format="7"
-    timestamp="23985477344007" >
+    timestamp="27976809265239" >
 
     <task
         name="javac"
-        duration="809" />
+        duration="2491" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="170" />
+        duration="201" />
     <task
         name="verifier"
-        duration="12" />
+        duration="3" />
 
     <artifact
         location="/home/maaakbar/MyProject/HimaChat2/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="23985477344007" >
+    <build timestamp="27976809265239" >
         <artifact
             location="/home/maaakbar/MyProject/HimaChat2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
