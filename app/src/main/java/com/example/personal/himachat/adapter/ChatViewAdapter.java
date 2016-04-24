@@ -50,9 +50,9 @@ public class ChatViewAdapter extends BaseAdapter {
         boolean isMyChat = chat.getUsername() == username;
         View messageView;
         if (isMyChat)
-            messageView = inflater.inflate(R.layout.list_row_me, parent);
+            messageView = inflater.inflate(R.layout.list_row_me, parent, false);
         else {
-            messageView = inflater.inflate(R.layout.list_row_other, parent);
+            messageView = inflater.inflate(R.layout.list_row_other, parent, false);
 
             ImageView imageView = (ImageView) messageView.
                     findViewById(R.id.imageView2);
